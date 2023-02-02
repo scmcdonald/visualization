@@ -4,6 +4,7 @@ theme_sarah <- function(){
         plot.title = element_text(size = 20, face = "bold"), 
         plot.subtitle = element_text(size = 16), 
         axis.ticks=element_blank(),
+        plot.title.position = "plot", 
         panel.background = element_rect(fill = "white"), 
         panel.grid.major = element_line(color="grey90"), 
         panel.grid.minor = element_line(color="grey90")) 
